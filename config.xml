@@ -11,7 +11,7 @@
     <string>1.15.a</string>
   </gap:config-file>
   <gap:config-file platform="android" parent="/manifest">
-    <application android:debuggable="true"/>
+    <application android:debuggable="false"/>
   </gap:config-file>
   <gap:config-file platform="android" parent="/manifest" mode="delete">
     <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
@@ -488,7 +488,6 @@
     <splash src="resources\ios\splash\Default@2x~iphone.png" width="640" height="960"/>
     <splash src="resources\ios\splash\Default~iphone.png" width="320" height="480"/>
   </platform>
-  <gap:plugin name="cordova-plugin-camera" source="npm"/>
   <gap:plugin name="cordova-plugin-media-capture" source="npm"/>
   <gap:plugin name="cordova-plugin-device" source="npm"/>
   <gap:plugin name="cordova-plugin-file" source="npm"/>
